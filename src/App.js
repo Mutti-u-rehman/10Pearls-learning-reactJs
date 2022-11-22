@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./components/ExpenseItem";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <br></br>
         </a>
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
