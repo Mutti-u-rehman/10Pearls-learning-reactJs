@@ -1,9 +1,8 @@
 import './ExpenseItem.css';
 
-function ExpenseItem() {
-  const expressionTitle = "Expense Item here ... as Expression Binding";
+function ExpenseItem(props) {
 
-  return <h2>{ expressionTitle }</h2>;
+  return <h2>{ props.title }</h2>;
 }
 
 export default ExpenseItem;
